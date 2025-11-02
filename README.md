@@ -23,9 +23,3 @@
 2. Listeden herhangi bir gemiye tıklayarak detaylarını görebilirsiniz.  
 3. “Daha Fazla” butonuna basarak yeni gemileri yükleyebilirsiniz.  
 4. Detay sayfasından “← Geri” butonuyla ana sayfaya dönebilirsiniz.
-
-## Kurulum (Opsiyonel)
-1. Dosyaları bilgisayarınıza indirin (`index.html`, `style.css`, `script.js`, görseller).  
-2. Tarayıcıda `index.html` dosyasını açın.  
-
-**Not:** Bu uygulama tamamen frontend tabanlıdır ve sayfa yenilenirse veriler SWAPI’den tekrar çekilir.
