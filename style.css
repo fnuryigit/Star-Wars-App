@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.main-image-container {
+  margin-bottom: 20px;
+}
+
+.main-starship-img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.starship-item {
+  background-color: rgba(25, 25, 25, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.starship-item:hover {
+  transform: scale(1.05);
+}
+
+.starship-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#loadMoreBtn,
+#backBtn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.detail-container {
+  background-color: rgba(17, 17, 17, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}

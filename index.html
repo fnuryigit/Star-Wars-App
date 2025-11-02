@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Starships</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Logo -->
+    <div class="logo-container">
+      <img src="images/Star_Wars_Logo.svg.png" alt="Star Wars Logo" />
+    </div>
+
+    <!-- Arama ve Not ekleme -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="İsim veya modele göre ara..."
+      />
+    </div>
+
+    <div id="listContainer" class="list-container"></div>
+
+    <button id="loadMoreBtn">Daha Fazla</button>
+
+    <div id="detailContainer" class="detail-container hidden">
+      <button id="backBtn">← Geri</button>
+      <div id="detailContent"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
